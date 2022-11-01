@@ -1,0 +1,8 @@
+body {
+    background: url() center / cover fixed;
+  }
+  input {
+    display: block;
+    margin: 40px auto;
+    font-size: 30px;
+  }
