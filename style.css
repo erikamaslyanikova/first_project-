@@ -1,8 +1,48 @@
 body {
-    background: url() center / cover fixed;
-  }
-  input {
-    display: block;
-    margin: 40px auto;
-    font-size: 30px;
-  }
+	background: rgb(0, 0, 0);
+	height: 300px;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px 10px;
+}
+
+h1 {
+	color: #eee;
+	text-align: center;
+	width: 100%;
+}
+
+.battle {
+	background: #eee;
+	width: 410px;
+	height: 325px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgb(70, 14, 14);
+	transition: all 1s ease-in-out;
+}
+
+.battle:hover{
+	transform: scale(1.2);
+	position: relative;
+	z-index: 1;
+	box-shadow: 3px 3px 5px rgb(132, 19, 19);
+}
+
+.battle__field {
+	width: 400px;
+	height: 300px;
+	box-sizing: border-box;
+	outline: 2px dashed rgb(200, 59, 59);
+	margin: 0 auto;
+}
+
+.battle__field > div:first-child {
+	height: 300px;
+	box-sizing: border-box;
+}
+
+.battle__name {
+	text-align: center;
+}

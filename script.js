@@ -30,3 +30,7 @@ b4.addEventListener("click", function () {
   document.body.style.backgroundImage =
     "url(https://i.pinimg.com/564x/06/8c/34/068c344149f7dbe1c4a498dcb0aa6419.jpg)";
 });
+b5.addEventListener("click", function () {
+    document.body.style.backgroundImage =
+      "url(https://kpoplat.com/wp-content/uploads/2021/04/felix-stray-kids-kpoplat.jpg)";
+  });
