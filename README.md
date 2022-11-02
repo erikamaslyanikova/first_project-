@@ -1,3 +1,3 @@
 # first_project 
  
-https://niekera.github.io/YARIK///
+https://niekera.github.io/YARIK/// посилання
